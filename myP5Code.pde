@@ -4,17 +4,17 @@ setup = function() {
 
 draw = function() {
     background(255,255,255,150);
-    strokeWeight(2);
-    stroke(0);
-    fill(0, 255, 68); 
-    rect(0, 0, 400, 200);  
+    fill(255,254,222);
+    rect(20, 10, 364, 200);  
 
     fill(0, 0, 0);
-    textSize(30);
-    text("Press me!", 145, 115);
-
-    if(mousePressed){
-        labelCanvas();
+    textSize(20);
+    
+   if(mousePressed){
+        text("CHICKEN BUTT!!!", 39, 200);
+    }
+    else{
+        text("GUESS WHA???", 39, 200);
     }
 };
 
